@@ -1,14 +1,17 @@
-import React from 'react'
-import UserDeck from './components/UserDeck/UserDeck';
+import React from "react";
+import UserDeck from "./Components/UserDeck/UserDeck";
+import UserCard from "./Components/UserCard/UserCard";
 
-class App extends React.component {
-  state = {}
+class App extends React.Component {
+  state = {};
   render() {
-    <div>
-      <h1>User Deck</h1>
-      <UserDeck />
-    </div>
-  };
+    return (
+      <div>
+        <h1>User Deck</h1>
+        <UserDeck />
+      </div>
+    );
+  }
 }
 
 export default App;

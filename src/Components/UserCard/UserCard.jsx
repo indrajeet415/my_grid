@@ -1,11 +1,11 @@
 import React from 'react'
-import styles from './User'
+import styles from './UserCard.module.css'
 
-class UserCard extends React.components {
+class UserCard extends React.Component {
     constructor(props) {
         super(props) 
         this.state = {
-            UserData : this.props.userData
+            userData : this.props.userData
         }
 
     }

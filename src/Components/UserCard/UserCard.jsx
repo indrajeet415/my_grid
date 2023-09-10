@@ -10,9 +10,10 @@ class UserCard extends React.Component {
 
     }
     
-
+   
     render() {
-    const {userData} = this.sate;
+       
+    const {userData} = this.state;
    
     return (
         <div className = {styles.container}>
